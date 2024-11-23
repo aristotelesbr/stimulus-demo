@@ -1,0 +1,19 @@
+{
+  "name": "stimulus-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild javascript/*.* --bundle --sourcemap --outdir=public/assets --public-path=/assets",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
