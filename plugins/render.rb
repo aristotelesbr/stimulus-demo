@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'erb'
+require 'tilt'
+
 class Lennarb
   module Plugins
     module Render
